@@ -1,0 +1,75 @@
+
+
+
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.h-font {
+    font-family: 'Merienda', cursive;
+}
+
+.custom-bg {
+    background-color: #cc2e2e;
+    border: 1px solid #cc2e2e ;
+}
+
+.custom-bg:hover {
+    background-color: #701212;
+    border-color: #701212;
+}
+
+:root {
+    --brand-color: #A52A2A; /* Replace with your actual brand color */
+    --brand-accent-color: #DB7093; /* Replace with your actual accent color */
+    --text-color: #333; /* This is for general text */
+    --button-text-color: #fff; /* This is for text on buttons */
+}
+
+.h-line{
+    width:150px;
+    margin: 0 auto;
+    height: 1.7px;
+}
+
+.pop {
+    border-top-color: red !important;
+    transform: scale(1.03);
+    transition: all 0.3s;
+
+}
+
+.availability-form {
+    margin-top: -50px;
+    z-index: 2;
+    position: relative;
+}
+
+@media screen and(max-width: 575px) {
+    .availability-form {
+        margin-top: 25px;
+        padding: 0 35px;
+
+    }
+}
+
+
+#dashboard-menu{
+    position: fixed;
+    height: 100%;
+}
+
+@media screen and (max-width:991px) {
+    #dashboard-menu{
+        height: auto;
+        width: 100%;
+    }
+
+        
+    #mainContent{
+        margin-top: 60px;
+    }
+
+    
+}
