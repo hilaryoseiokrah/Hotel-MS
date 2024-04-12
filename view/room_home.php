@@ -191,9 +191,9 @@
 
                                             <select name="selectRoom" id="room">
                                                 <?php
-                                                foreach ($rooms as $room) {
-                                                    echo '<option value="' . $room["roomID"] . '">' . $room["roomName"] . '</option>';
-                                                }
+                                                    foreach ($rooms as $room) {
+                                                        echo '<option value="' . $room["roomID"] . '">' . $room["roomName"] . '</option>';
+                                                    }
                                                 ?>
                                             </select>
                                         </div>
