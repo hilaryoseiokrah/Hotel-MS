@@ -2,11 +2,8 @@
 session_start();
 
 function is_login_user(){
-    if (isset($_SESSION['UserID'])) 
-    {  
-        return true;
-    }
-    else{
+    if (!isset($_SESSION['userID'])) 
+    {
         header( "Location: ../view/index.php" );
         die();
     }

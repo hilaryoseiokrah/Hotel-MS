@@ -3,7 +3,6 @@
 
     is_login_user();
 
-
 ?>
 
 <!DOCTYPE html>

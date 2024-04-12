@@ -49,8 +49,12 @@ if (isset($_POST['login'])) {
                 $_SESSION['userID'] = $row['UserID'];
                 $_SESSION['roleID'] = $row['RoleID'];
 
+                // echo $_SESSION['userID'];
+                // echo $_SESSION['roleID'];
+
+                // exit;
                 // Redirect based on role
-                redirectBasedOnRole($row['RoleID']);
+                redirectBasedOnRole($_SESSION['roleID']);
             } else {
                 // Handle incorrect password
                 echo 'Login failed - Invalid Credentials!';

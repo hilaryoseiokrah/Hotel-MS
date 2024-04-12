@@ -14,6 +14,6 @@ function getRoom() {
         return null;
     }
 }
-print_r(getRoom());
+// print_r(getRoom());
 
 ?>
